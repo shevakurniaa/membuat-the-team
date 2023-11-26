@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat The Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    background: #7f7fd5;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.team {
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin-block: 1rem;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ece9e6;
+    background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+}
+
+.card-body h4 {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.card-footer {
+    display: inline-block;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.button {
+    background: #56ccf2;
+    background: linear-gradient(to bottom, #2f80ed, #56ccf2);
+    color: #fafafafa;
+    padding: 0.75em 1.25em;
+    border-radius: 1.5em;
+    font-size: 0.75rem;
+    margin-left: 1em;
+    width: 200px;
+    font-family: 'Times New Roman';
+}
+
+</style>
+
+<body>
+    <div class="team">
+        <h2>The Team</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/bts_BE_concept_teaser_RM_1-1536x1024.jpg" alt="Namjoon" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Leader</span>
+                <h4 style="text-align: center;">RM</h4>
+                <p style="font-size: small;">Kim Namjoon (김남준) atau RM berasal dari Ilsan. RM adalah pemimpin dari BTS. Selain itu Ia juga berperan sebagai Main Rapper. Ia memiliki 2 mixtape (RM & Mono) dan 1 album (Indigo). </p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/bts_be_concept_teaser_Jin_1-1536x1025.jpg" alt="Seokjin" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">Jin</h4>
+                <p style="font-size: small;">Kim Seokjin (김석진) atau Jin berasal dari Gwacheon. Jin adalah member tertua di BTS. Ia berperan sebagai Vokal. Ia memiliki 1 single album (The Astronaut) yang rilis pada tahun 2022. </p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/bts_be_concept_teaser_SUGA_1-2000x1333.jpg" alt="Yoongi" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">Suga</h4>
+                <p style="font-size: small;">Min Yoongi (민윤기) atau Suga berasal dari Daegu. Suga berperan sebagai Lead Rapper. Ia memiliki 2 mixtape (Agust D & D-2) dan 1 album (D-Day)</p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/BTS_BE_Teaser_Concept_J-hope_1-1536x1024.jpg" alt="Hoseok" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">J-Hope</h4>
+                <p style="font-size: small;">Jung Hoseok (정호석) atau J-Hope berasal dari Gwangju. J-Hope berperan sebagai Rapper. Ia memiliki 1 mixtape (Hope World) dan 1 album (Jack In The Box)</p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/bts_be_concept_teaser_Jimin_1-1536x1024.jpg" alt="Jimin" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: medium; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">Jimin</h4>
+                <p style="font-size: medium;">Park Jimin (박지민) atau Jimin berasal dari Busan. Jimin berperan sebagai Main Dancer. Ia memiliki 1 album (FACE) yang rilis pada tahun 2023</p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/BTS_BE_Teaser_Concept_V_1-1536x1024.jpg" alt="Taehyung" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">V</h4>
+                <p style="font-size: small;">Kim Taehyung (김태형) atau V berasal dari Daegu. V berperan sebagai Vokal. Ia memiliki 1 album (Layover) yang rilis pada tahun 2023</p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://dbkpop.com/wp-content/uploads/2020/11/bts_be_concept_teaser_Jungkook_1-1536x1024.jpg" alt="Jungkook" width="300">
+            <div class="card-body">
+                <span style="text-align: center; font-size: small; color: #A9A9A9;">Member</span>
+                <h4 style="text-align: center;">Jungkook</h4>
+                <p style="font-size: small;">Jeon Jungkook (전정국) atau Jungkook berasal dari Busan. Jungkook berperan sebagai Main Vokal. Ia memiliki 1 album (Golden) yang rilis pada tahun 2023</p>
+            </div>
+
+            <div class="card-footer">
+                <button class="button">See Profile</button>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
